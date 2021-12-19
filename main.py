@@ -2,8 +2,9 @@ import datetime
 import math
 import time
 
-print("Ведите номер задачи:")
-z = int(input())
+print("Ведите номер задачи: ")
+
+z = int(input("Ведите номер задачи: "))
 if(z == 1):
  def DecorZad1():
   print("Выбрана задача 1")
